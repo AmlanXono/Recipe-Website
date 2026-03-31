@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Delicious Recipes - Discover handcrafted cooking recipes from around the world.">
+  <title>All Recipes | Delicious Recipes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar__logo">Delicious Recipes</a>
+      <button class="navbar__toggle" onclick="document.querySelector('.navbar__links').classList.toggle('navbar__links--open')">☰</button>
+      <div class="navbar__links">
+        <a href="index.html" class="navbar__link ">Home</a>
+        <a href="recipes.html" class="navbar__link navbar__link--active">Recipes</a>
+      </div>
+    </div>
+  </nav>
+  
+  <section class="section">
+    <div class="container">
+      <h1 class="section__title" style="margin-bottom: 0.5rem">All Recipes</h1>
+      <p class="section__text" style="margin-bottom: 2rem">Browse our collection of 5 handcrafted recipes.</p>
+      <div class="filters">
+        <span class="filter-btn filter-btn--active">All</span>
+        <span class="filter-btn">Vegetarian</span>
+        <span class="filter-btn">Non-Vegetarian</span>
+        <span class="filter-btn">Desserts</span>
+      </div>
+      <div class="recipes-grid"><a href="pasta-carbonara.html" class="recipe-card">
+        <div class="recipe-card__img-wrap">
+          <img src="images/carbonara.jpg" alt="Pasta Carbonara" loading="lazy" width="800" height="600" class="recipe-card__img">
+        </div>
+        <div class="recipe-card__body">
+          <div class="recipe-card__badges">
+            <span class="badge badge--medium">Medium</span>
+            <span class="badge badge--category">Non-Veg</span>
+          </div>
+          <h3 class="recipe-card__title">Pasta Carbonara</h3>
+          <p class="recipe-card__desc">A classic Roman pasta dish with crispy pancetta, creamy egg sauce, and sharp Pecorino Romano cheese.</p>
+          <div class="recipe-card__meta">
+            <span>⏱ 10 min</span>
+            <span>👨‍🍳 4 servings</span>
+          </div>
+        </div>
+      </a>
+<a href="thai-green-curry.html" class="recipe-card">
+        <div class="recipe-card__img-wrap">
+          <img src="images/thai-green-curry.jpg" alt="Thai Green Curry" loading="lazy" width="800" height="600" class="recipe-card__img">
+        </div>
+        <div class="recipe-card__body">
+          <div class="recipe-card__badges">
+            <span class="badge badge--medium">Medium</span>
+            <span class="badge badge--category">Non-Veg</span>
+          </div>
+          <h3 class="recipe-card__title">Thai Green Curry</h3>
+          <p class="recipe-card__desc">Aromatic and creamy coconut curry with tender chicken, Thai basil, and vibrant green vegetables.</p>
+          <div class="recipe-card__meta">
+            <span>⏱ 15 min</span>
+            <span>👨‍🍳 4 servings</span>
+          </div>
+        </div>
+      </a>
+<a href="chocolate-lava-cake.html" class="recipe-card">
+        <div class="recipe-card__img-wrap">
+          <img src="images/lava-cake.jpg" alt="Chocolate Lava Cake" loading="lazy" width="800" height="600" class="recipe-card__img">
+        </div>
+        <div class="recipe-card__body">
+          <div class="recipe-card__badges">
+            <span class="badge badge--hard">Hard</span>
+            <span class="badge badge--category">Dessert</span>
+          </div>
+          <h3 class="recipe-card__title">Chocolate Lava Cake</h3>
+          <p class="recipe-card__desc">Indulgent individual chocolate cakes with a molten center that flows like lava when you break through the crust.</p>
+          <div class="recipe-card__meta">
+            <span>⏱ 15 min</span>
+            <span>👨‍🍳 4 servings</span>
+          </div>
+        </div>
+      </a>
+<a href="greek-salad.html" class="recipe-card">
+        <div class="recipe-card__img-wrap">
+          <img src="images/greek-salad.jpg" alt="Classic Greek Salad" loading="lazy" width="800" height="600" class="recipe-card__img">
+        </div>
+        <div class="recipe-card__body">
+          <div class="recipe-card__badges">
+            <span class="badge badge--easy">Easy</span>
+            <span class="badge badge--category">Veg</span>
+          </div>
+          <h3 class="recipe-card__title">Classic Greek Salad</h3>
+          <p class="recipe-card__desc">A refreshing Mediterranean salad with ripe tomatoes, crisp cucumbers, creamy feta, and a bright olive oil dressing.</p>
+          <div class="recipe-card__meta">
+            <span>⏱ 15 min</span>
+            <span>👨‍🍳 4 servings</span>
+          </div>
+        </div>
+      </a>
+<a href="butter-chicken.html" class="recipe-card">
+        <div class="recipe-card__img-wrap">
+          <img src="images/butter-chicken.jpg" alt="Butter Chicken" loading="lazy" width="800" height="600" class="recipe-card__img">
+        </div>
+        <div class="recipe-card__body">
+          <div class="recipe-card__badges">
+            <span class="badge badge--medium">Medium</span>
+            <span class="badge badge--category">Non-Veg</span>
+          </div>
+          <h3 class="recipe-card__title">Butter Chicken</h3>
+          <p class="recipe-card__desc">Rich and creamy Indian curry with tender marinated chicken in a luscious tomato-butter sauce, best served with warm naan.</p>
+          <div class="recipe-card__meta">
+            <span>⏱ 20 min</span>
+            <span>👨‍🍳 4 servings</span>
+          </div>
+        </div>
+      </a></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <h3 class="footer__title">Delicious Recipes</h3>
+          <p class="footer__text">Curated recipes from around the world, made simple for your kitchen.</p>
+        </div>
+        <div>
+          <h4 class="footer__subtitle">Quick Links</h4>
+          <a href="index.html" class="footer__link">Home</a>
+          <a href="recipes.html" class="footer__link">All Recipes</a>
+        </div>
+        <div>
+          <h4 class="footer__subtitle">Categories</h4>
+          <a href="recipes.html" class="footer__link">Vegetarian</a>
+          <a href="recipes.html" class="footer__link">Non-Vegetarian</a>
+          <a href="recipes.html" class="footer__link">Desserts</a>
+        </div>
+      </div>
+      <div class="footer__bottom">© 2026 Delicious Recipes. Created with ❤️ by Chef Studio.</div>
+    </div>
+  </footer>
+</body>
+</html>
